@@ -1,0 +1,211 @@
+		
+
+		body { 
+		position: relative;
+		margin--top: 3em; 
+		margin-left: 4em;
+		background-color: #90C490;
+		}
+
+		.links {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #007241;
+		font-size: 1em;
+		text-transform: lowercase;
+		font-weight:100;
+		-webkit-font-smoothing:antialiased
+		}
+
+		a {
+		text-decoration: none;
+		}
+
+		#face {
+		position: relative;
+		top: 0em;
+		left: 5em;
+		bottom: 0em;
+		}
+
+		.titles {
+		color: #f0f3d4;
+		text-align: left;
+		font-size: 6em;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		text-transform: lowercase;
+		}
+		
+		#mainTitle {
+		margin-top: -12em;	
+		padding-top: 0em;
+		padding-left: 21em;
+		position:relative;
+		}
+
+		#contact {
+		position: relative;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #f0f3d4;
+		font-size: 1.75em;
+		text-transform: lowercase;
+		padding-top: 4em;
+		padding-left: 2em;
+		}
+
+		#contactInfo {
+		position: relative;
+		padding-top: 0em;
+		padding-left: 3.5em;
+		margin-right: 0em;
+		width: 0em;
+		text-decoration: none;
+		text-transform: lowercase;
+		
+		}
+
+		#links {
+		position: relative;
+		list-style-type: none;
+		position: relative;
+		margin-left: 10.5em;
+		padding-top: -4em;
+		text-decoration: none;
+		}
+
+		.span1{
+		float: left;
+		margin-bottom: 100px;
+		}
+
+	
+		#portfolio, #photography, #code, #about{
+		vertical-align: text-top;
+		position: relative;
+		display: inline-block;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		text-align: center;
+		text-decoration: none;
+		text-transform: lowercase;
+		margin-top: -100px;
+		margin-left: 30px;
+		padding-left: 8em;
+		padding-top: 4em;
+		width: 80px;
+		}
+
+		#portfolio {
+		background-image: url(Portfolio.png);
+		background-size: 55px 74px;
+		background-repeat: no-repeat;
+		background-position: 140px top ;
+		}
+
+		#photography {
+		background-image: url(Photography.png);
+		background-size: 76px 53px;
+		background-repeat: no-repeat;
+		background-position: 135px top;
+		}
+
+		#code {
+		background-image: url(Computer.png);
+		background-size: 94px 66px;
+		background-repeat: no-repeat;
+		background-position: 112px top;
+		}
+
+		#about {
+		background-image: url(LightBulb.png);
+		background-size: 46px 61px;
+		background-repeat: no-repeat;
+		background-position: 145px top;	
+		}
+
+		.proj{
+		padding-top: 5em;
+		}
+
+
+		
+		.links:hover,.links:active{
+		-webkit-transition: color 1s;
+		color: #032301;
+		}
+
+		.secondaryTitles{
+		margin-left: 5px;
+		color: #007241;
+		text-align: left;
+		font-size: 3em;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		text-transform: lowercase;
+		padding-top: 100px;
+		}
+
+
+		.secondaryTitlesBack {
+		background-color: #F0F3D4;
+		height: 150px;
+		margin-left: -70px;
+		margin-right: -10px
+		}
+
+		#aboutMe{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		margin-right: 1em;
+		position: relative;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #007241;
+		font-size: 1em;
+		font-weight:100;
+		-webkit-font-smoothing:antialiased
+		-webkit-transition: color 2s;
+		color: #F0F3D4;
+		}
+
+		#aboutMe{
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		color: #F0F3D4;
+		margin-top: 50px;
+		padding-left: 12em;
+		font-size: 1.75em;
+		font-weight:100;
+		-webkit-font-smoothing:antialiased
+    	text-align: center;
+
+    	-webkit-animation: fadein 2s; /* Safari and Chrome */
+        -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 2s;
+		}
+
+		@keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}
+
+		/* Firefox */
+		@-moz-keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}
+
+		/* Safari and Chrome */
+		@-webkit-keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}
+
+		/* Internet Explorer */
+		@-ms-keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}​
+
+		/* Opera */
+		@-o-keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}		​
